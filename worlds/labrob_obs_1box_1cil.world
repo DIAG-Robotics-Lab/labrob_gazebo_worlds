@@ -81,15 +81,9 @@
       <shadows>1</shadows>
     </scene>
     <wind/>
-    <spherical_coordinates>
-      <surface_model>EARTH_WGS84</surface_model>
-      <latitude_deg>0</latitude_deg>
-      <longitude_deg>0</longitude_deg>
-      <elevation>0</elevation>
-      <heading_deg>0</heading_deg>
-    </spherical_coordinates>
-    <model name='box_1'>
-      <pose>4.14711 -3.14879 0.5 0 -0 0</pose>
+
+    <model name='unit_box'>
+      <pose>5.04301 -2.20059 0.5 0 -0 0</pose>
       <link name='link'>
         <inertial>
           <mass>1</mass>
@@ -141,8 +135,9 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='cilinder_1'>
-      <pose>4.12279 -0.147994 0.5 0 -0 0</pose>
+    
+    <model name='unit_cylinder'>
+      <pose>4.98753 0.975986 0.5 0 -0 0</pose>
       <link name='link'>
         <inertial>
           <mass>1</mass>
@@ -196,48 +191,10 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <state world_name='default'>
-      <sim_time>36 343000000</sim_time>
-      <real_time>36 445888828</real_time>
-      <wall_time>1701512146 294637800</wall_time>
-      <iterations>36343</iterations>
-      <model name='ground_plane'>
-        <pose>0 0 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>0 0 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='box_1'>
-        <pose>3.59794 3.76262 0.499995 -1e-05 0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>3.59794 3.76262 0.499995 -1e-05 0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0.004709 0.011055 -9.78158 -0.022108 0.009414 1e-06</acceleration>
-          <wrench>0.004709 0.011055 -9.78158 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='cilinder_1'>
-        <pose>4 0 0.499997 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>4 0 0.499997 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
-          <wrench>0 0 -9.8 0 -0 0</wrench>
-        </link>
-      </model>
-      <light name='sun'>
-        <pose>0 0 10 0 -0 0</pose>
-      </light>
-    </state>
+
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>-7.69016 -8.18117 6.07052 0 0.370796 0.556</pose>
+        <pose>14.8746 -10.6906 5.44606 0 0.275643 2.35619</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
