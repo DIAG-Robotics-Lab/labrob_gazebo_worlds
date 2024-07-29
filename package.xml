@@ -6,6 +6,11 @@
   <maintainer email="cipriano@diag.uniroma1.it">Michele Cipriano</maintainer>
   <license>TODO</license>
   <buildtool_depend>catkin</buildtool_depend>
-  <export>
+  <exec_depend>gazebo_ros</exec_depend>
+   <export>
+    <!-- gazebo_ros_paths_plugin automatically adds these to
+        GAZEBO_PLUGIN_PATH and GAZEBO_MODEL_PATH when you do this export inside
+        the package.xml file. You can than use URIs of type model://my_package/stuff. -->
+    <gazebo_ros gazebo_model_path="/home/alienware/dorazio_ws/tiago_qp_melodic/src/labrob_gazebo_worlds/worlds/ground_plane_mod"/> 
   </export>
 </package>
