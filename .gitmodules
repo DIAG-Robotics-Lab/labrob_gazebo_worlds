@@ -1,0 +1,4 @@
+[submodule "gazebo-ros-actor-plugin"]
+	path = gazebo-ros-actor-plugin
+	url = https://github.com/blackcoffeerobotics/gazebo-ros-actor-plugin/tree/noetic-classic
+    branch = noetic-classic
